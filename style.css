@@ -57,8 +57,86 @@ body{
     font-weight:100px;
     font-size: 40px;
 }
+
 .checked{
     display: flex;
     gap: 10px;
     align-items: center;
 }
+
+
+.my-plans{
+    display: flex;  
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    gap:50px
+    
+    
+}
+
+.plan-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 60px;
+}
+
+.caption{
+    text-align: center;
+    display: block;
+
+}
+
+.social-content{
+background-color: black;
+height:300px ;
+width: 100%;
+margin-top: 50px;
+display: flex;
+}
+
+.content-title{
+    color: aliceblue;
+}
+
+.content{
+    padding: 50px;
+    padding-left: 100px;
+    width: 50%;
+}
+
+.content>p{
+    color: aliceblue;
+}
+
+.subscribe{
+    color: aliceblue;
+    padding: 50px;
+    width: 50%;
+    display: block;
+    
+
+}
+
+.email{
+    background-color: black;
+    border-color: aliceblue;
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 50px;
+    border-width: 1px;
+    color: aliceblue;
+}
+
+.subscribe-btn{
+    color: rgb(233, 125, 36);
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    padding-inline: 20px;
+   
+}
+
+
+
